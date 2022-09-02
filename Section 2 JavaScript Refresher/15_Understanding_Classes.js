@@ -15,7 +15,7 @@ class Person extends Human {
   }
   
   myName() {
-      (console.log(name))
+      (console.log(this.name))
   }
 }
 
