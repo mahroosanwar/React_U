@@ -3,7 +3,7 @@ class Human {
     this.gender = "Male"
   }
   
-  myGender() {
+  printGender() {
     console.log(this.gender)
   }
 }
@@ -14,11 +14,11 @@ class Person extends Human {
     this.name = "Mahroos"
   }
   
-  myName() {
+  printMyName() {
       console.log(this.name)
   }
 }
 
 const person = new Person()
-person.myName()
-person.myGender()
+person.printMyName()
+person.printGender()
